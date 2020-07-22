@@ -1,10 +1,14 @@
 # UDACITY-CAPSTONE-PROJECT
 
 
-# Introduction
-This repository provides a step by step analysis and forecasting model of aggregated data of retail store sales data.
+# Project Summary
+This repository provides a step by step analysis and forecasting model of aggregated data of retail store sales data. Target of this project is to provide a generic approach for data wrangling and forecast of time series. The provided functions and class can be easily used for any time series data set
 
 Within the provided notebook we will first prepare the data so that they can be used by any forecasting model. We will then evaluate the performance of different forecasting models, starting with classic statistical SARIMA models up to Linear Regression and tree based models. For data processing, training and testing of the models a complete Time_Series_Model class will be provided which allows to qickly evaluate any specific model for time series.
+
+After comparison different models with basic parameters, the best model is elected and further tuned to get better prediction results.
+
+All the functions provided cover the forecasting of aggregated data. At the end of the Notebook you can find the preparation steps in order to perform individual forecasts for each retail store. This could be covered in a second phase of the project. 
 
 # Dataset
 The dataset covers includes more than 2 years of sales data of over 1000 retail stores. The complete dataset can be downloaded here:
@@ -14,7 +18,7 @@ https://drive.google.com/file/d/15_hqs9AVnEz8wNXY1rO4Dqn16nQTzEcL/view?usp=shari
 # Required Python modules
 The notebook was created with Python 3.7
 
-In order to execute all function in the provided notebook the following libraries are required:
+In order to execute all function in the provided notebook the following modules have to be imported:
 
 - from math import sqrt
 - from warnings import catch_warnings
@@ -35,3 +39,9 @@ In order to execute all function in the provided notebook the following librarie
 - from datetime import timedelta
 - from tqdm import tqdm
 - pd.options.mode.chained_assignment = None 
+
+
+# Blog post on MEDIUM
+You can find a summary of this project in my blog post on MEDIUM with the following link:
+
+xxxxxxx
