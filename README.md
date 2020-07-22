@@ -19,19 +19,19 @@ In order to execute all function in the provided notebook the following librarie
 - from math import sqrt
 - from warnings import catch_warnings
 - from warnings import filterwarnings
-from statsmodels.tsa.statespace.sarimax import SARIMAX
-from sklearn.linear_model import LinearRegression
-from sklearn.ensemble import RandomForestRegressor
-import xgboost as xgb
-from math import sqrt
-from sklearn.metrics import mean_squared_error
-from sklearn.preprocessing import MinMaxScaler
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import pmdarima as pm
-from pmdarima import model_selection
-import matplotlib.dates as mdates
-from datetime import timedelta
-from tqdm import tqdm
-pd.options.mode.chained_assignment = None 
+- from statsmodels.tsa.statespace.sarimax import SARIMAX
+- from sklearn.linear_model import LinearRegression
+- from sklearn.ensemble import RandomForestRegressor
+- import xgboost as xgb
+- from math import sqrt
+- from sklearn.metrics import mean_squared_error
+- from sklearn.preprocessing import MinMaxScaler
+- import pandas as pd
+- import numpy as np
+- import matplotlib.pyplot as plt
+- import pmdarima as pm
+- from pmdarima import model_selection
+- import matplotlib.dates as mdates
+- from datetime import timedelta
+- from tqdm import tqdm
+- pd.options.mode.chained_assignment = None 
