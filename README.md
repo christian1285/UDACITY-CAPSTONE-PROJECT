@@ -10,10 +10,12 @@ After comparison different models with basic parameters, the best model is elect
 
 All the functions provided cover the forecasting of aggregated data. At the end of the Notebook you can find the preparation steps in order to perform individual forecasts for each retail store. This could be covered in a second phase of the project. 
 
-# Dataset
+# Dataset and Files
 The dataset covers includes more than 2 years of sales data of over 1000 retail stores. The complete dataset can be downloaded here:
 
 https://drive.google.com/file/d/15_hqs9AVnEz8wNXY1rO4Dqn16nQTzEcL/view?usp=sharing
+
+The complete code is provided within on notebook and should run without any adjustments when the file is stored in the working directory.
 
 # Required Python modules
 The notebook was created with Python 3.7
