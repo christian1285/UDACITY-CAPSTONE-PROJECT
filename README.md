@@ -46,7 +46,7 @@ In order to execute all function in the provided notebook the following modules 
 # Blog post on MEDIUM
 You can find a summary of this project in my blog post on MEDIUM with the following link:
 
-xxxxxxx
+https://medium.com/@christian_foertsch99/framework-for-time-series-forecasting-and-model-evaluation-d66414fcee81
 
 # Summary
 When searhing in the web for time series prediction there are still most search results for classic statistical SARIMAX models as they are specifically designed to handle datetime index, trends and seasonalities. Nevertheless these models are difficult to to tune and the functions are not as easy to use when you are familiar with sklearn syntax.
